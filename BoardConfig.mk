@@ -42,6 +42,9 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 114001162240
 # Recovery
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 165
 
+# Vibrator
+SOONG_CONFIG_xiaomiSm8350Vars_vibrator_use_effect_stream := true
+
 # Include proprietary files
 -include vendor/xiaomi/venus/BoardConfigVendor.mk
 -include vendor/xiaomi/venus-firmware/BoardConfigVendor.mk
