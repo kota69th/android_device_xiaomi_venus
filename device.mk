@@ -26,13 +26,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display_id_4630946736638489730.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/displayconfig/display_id_4630946736638489730.xml
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-pe
-
 PRODUCT_PACKAGES += \
     FrameworksResVenus \
     SettingsProviderOverlayVenus \
     SettingsResVenus \
     SystemUIResVenus
+
+# Pixel Wallpapers (2021)
+PRODUCT_PACKAGES += \
+    PixelWallpapers2021
 
 # PowerShare
 PRODUCT_PACKAGES += \
