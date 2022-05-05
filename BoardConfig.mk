@@ -51,3 +51,4 @@ SOONG_CONFIG_xiaomiSm8350Vars_vibrator_use_effect_stream := true
 # Include proprietary files
 -include vendor/xiaomi/venus/BoardConfigVendor.mk
 -include vendor/xiaomi/venus-firmware/BoardConfigVendor.mk
+-include vendor/xiaomi/venus-miuicamera/products/board.mk
